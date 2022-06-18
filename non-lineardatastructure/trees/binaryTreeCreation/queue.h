@@ -1,5 +1,5 @@
-#ifndef _CQUEUE_H_
-#define _CQUEUE_H_
+#ifndef _QUEUE_H_
+#define _QUEUE_H_
 #include "btree.h"
 
 typedef struct {

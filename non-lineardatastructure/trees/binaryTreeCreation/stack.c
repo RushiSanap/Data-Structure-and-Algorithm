@@ -23,7 +23,6 @@ int isFull_stack(stack s)
 void push(stack *s, b_node *bt)
 {
 	if(isFull_stack(*s)){
-		printf("stack is full\n");
 		return;
 	}
 	s->top++;
@@ -34,7 +33,6 @@ b_node *pop(stack *s)
 {
 	b_node *x = NULL;
 	if(isEmpty_stack(*s)){
-		printf("stack is empty\n");
 		return x;
 	}
 	x = s->arr[s->top--];
@@ -45,7 +43,6 @@ b_node *peek(stack s)
 {
 	b_node *x = NULL;
 	if(isEmpty_stack(s)){
-		printf("stack is empty\n");
 		return x;
 	}
 	x = s.arr[s.top];
