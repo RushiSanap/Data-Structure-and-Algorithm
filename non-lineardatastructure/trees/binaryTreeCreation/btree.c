@@ -117,7 +117,7 @@ void iterative_inorder(btree root)
     }   
     else{
       t = pop(&s);
-			printf("%d ", t->data);
+      printf("%d ", t->data);
       t = t->right;
     }   
   }
